@@ -5,7 +5,7 @@ import time
 import statistics
 import numpy
 
-M="I Love Data Security Class So Much"
+M="<Enter text of your choosing>"
 
 def nonce_generation(inp=M, size=16):
     nonce =''.join(random.choice(string.ascii_lowercase + string.digits) for x in range(size))
